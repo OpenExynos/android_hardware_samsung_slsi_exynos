@@ -37,7 +37,7 @@ LOCAL_C_INCLUDES += \
 	external/kernel-headers/original/uapi/sound \
 	$(call include-path-for, audio-route) \
 	$(call include-path-for, audio-utils) \
-	$(DEVICE_BASE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/conf \
+	$(DEVICE_BASE_PATH)/j7xelte/conf \
 	external/expat/lib
 
 ifeq ($(BOARD_USE_SIPC_RIL), true)
